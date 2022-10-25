@@ -1,6 +1,5 @@
-# WP Emailer
-A WordPress plugin using Vue JS library to work with email settings
-
+# WP Vue Kit
+A Vue JS Starter Kit for WordPress plugin development - Webpack, Sass, Vue, Vuex, Vue-router
 ---
 
 ## Installation

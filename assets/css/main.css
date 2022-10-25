@@ -1,0 +1,47 @@
+/*!*************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/tabs/style.scss ***!
+  \*************************************************************************************************************************/
+#wp-vue-kit-tabs {
+  display: flex;
+  flex-direction: row;
+  background-color: #fff;
+  font-size: 14px;
+  margin: 0 0 20px -20px;
+  padding: 0 20px;
+}
+#wp-vue-kit-tabs .tab-item a {
+  box-shadow: none;
+  color: #666;
+  display: inline-block;
+  margin-right: 30px;
+  padding: 20px 10px 18px 10px;
+  border-bottom: 2px solid transparent;
+  text-decoration: none;
+}
+#wp-vue-kit-tabs .tab-item a:focus {
+  outline: none;
+}
+#wp-vue-kit-tabs .tab-item a.router-link-active {
+  border-bottom: 2px solid #ff982d;
+}
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[13].use[0]!./src/components/button/Button.vue?vue&type=style&index=0&id=5975756f&lang=scss&scoped=true ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************************/
+button[data-v-5975756f] {
+  background: #3869ff;
+  color: #fff;
+  border: 0px solid;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: all;
+  border-radius: 4px;
+}
+button[data-v-5975756f]:hover {
+  opacity: 0.9;
+}
+/*!***************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/main.scss ***!
+  \***************************************************************************************************************/
+
+
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi4vY3NzL21haW4uY3NzIiwibWFwcGluZ3MiOiI7OztBQUFBO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0FBQ0Y7QUFFSTtFQUNJO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0FBQVI7QUFFUTtFQUNJO0FBQVo7QUFHUTtFQUNJO0FBRFosQzs7OztBQ3JCSTtFQUNJO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0FDQVI7QURFUTtFQUNJO0FDQVosQyIsInNvdXJjZXMiOlsid2VicGFjazovL3dwdnVla2l0Ly4vc3JjL2NvbXBvbmVudHMvdGFicy9zdHlsZS5zY3NzIiwid2VicGFjazovL3dwdnVla2l0Ly4vc3JjL2NvbXBvbmVudHMvYnV0dG9uL0J1dHRvbi52dWUiLCJ3ZWJwYWNrOi8vd3B2dWVraXQvLi9CdXR0b24udnVlIl0sInNvdXJjZXNDb250ZW50IjpbIiN3cC12dWUta2l0LXRhYnMge1xuICBkaXNwbGF5OiBmbGV4O1xuICBmbGV4LWRpcmVjdGlvbjogcm93O1xuICBiYWNrZ3JvdW5kLWNvbG9yOiAjZmZmO1xuICBmb250LXNpemU6IDE0cHg7XG4gIG1hcmdpbjogMCAwIDIwcHggLTIwcHg7XG4gIHBhZGRpbmc6IDAgMjBweDtcblxuICAudGFiLWl0ZW0ge1xuICAgIGEge1xuICAgICAgICBib3gtc2hhZG93OiBub25lO1xuICAgICAgICBjb2xvcjogIzY2NjtcbiAgICAgICAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xuICAgICAgICBtYXJnaW4tcmlnaHQ6IDMwcHg7XG4gICAgICAgIHBhZGRpbmc6IDIwcHggMTBweCAxOHB4IDEwcHg7XG4gICAgICAgIGJvcmRlci1ib3R0b206IDJweCBzb2xpZCB0cmFuc3BhcmVudDtcbiAgICAgICAgdGV4dC1kZWNvcmF0aW9uOiBub25lO1xuXG4gICAgICAgICY6Zm9jdXMge1xuICAgICAgICAgICAgb3V0bGluZTogbm9uZTtcbiAgICAgICAgfVxuXG4gICAgICAgICYucm91dGVyLWxpbmstYWN0aXZlIHtcbiAgICAgICAgICAgIGJvcmRlci1ib3R0b206IDJweCBzb2xpZCAjZmY5ODJkO1xuICAgICAgICB9XG4gICAgfVxuICB9XG59XG4iLCJcbiAgICBidXR0b24ge1xuICAgICAgICBiYWNrZ3JvdW5kOiAjMzg2OWZmO1xuICAgICAgICBjb2xvcjogI2ZmZjtcbiAgICAgICAgYm9yZGVyOiAwcHggc29saWQ7XG4gICAgICAgIHBhZGRpbmc6IDEwcHggMjBweDtcbiAgICAgICAgY3Vyc29yOiBwb2ludGVyO1xuICAgICAgICB0cmFuc2l0aW9uOiBhbGw7XG4gICAgICAgIGJvcmRlci1yYWRpdXM6IDRweDtcblxuICAgICAgICAmOmhvdmVye1xuICAgICAgICAgICAgb3BhY2l0eTogMC45O1xuICAgICAgICB9XG4gICAgfVxuIiwiYnV0dG9uIHtcbiAgYmFja2dyb3VuZDogIzM4NjlmZjtcbiAgY29sb3I6ICNmZmY7XG4gIGJvcmRlcjogMHB4IHNvbGlkO1xuICBwYWRkaW5nOiAxMHB4IDIwcHg7XG4gIGN1cnNvcjogcG9pbnRlcjtcbiAgdHJhbnNpdGlvbjogYWxsO1xuICBib3JkZXItcmFkaXVzOiA0cHg7XG59XG5idXR0b246aG92ZXIge1xuICBvcGFjaXR5OiAwLjk7XG59Il0sIm5hbWVzIjpbXSwic291cmNlUm9vdCI6IiJ9*/
