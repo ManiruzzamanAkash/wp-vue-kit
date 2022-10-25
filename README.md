@@ -1,5 +1,6 @@
 # WP Vue Kit
 A Vue JS Starter Kit for WordPress plugin development - Webpack, Sass, Vue, Vuex, Vue-router
+
 ---
 
 ## Installation
@@ -32,3 +33,9 @@ composer run phpcs:fix
 ```sh
 composer run test
 ```
+
+## Demo preview
+![Demo preview](https://i.ibb.co/8bWTkW7/wp-vue-kit-demo.png "See demo preview of WP Vue Kit").
+
+## Contact
+manirujjamanakash@gmail.com
