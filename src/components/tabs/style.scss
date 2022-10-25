@@ -1,0 +1,28 @@
+#wp-vue-kit-tabs {
+  display: flex;
+  flex-direction: row;
+  background-color: #fff;
+  font-size: 14px;
+  margin: 0 0 20px -20px;
+  padding: 0 20px;
+
+  .tab-item {
+    a {
+        box-shadow: none;
+        color: #666;
+        display: inline-block;
+        margin-right: 30px;
+        padding: 20px 10px 18px 10px;
+        border-bottom: 2px solid transparent;
+        text-decoration: none;
+
+        &:focus {
+            outline: none;
+        }
+
+        &.router-link-active {
+            border-bottom: 2px solid #ff982d;
+        }
+    }
+  }
+}
