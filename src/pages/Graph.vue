@@ -7,6 +7,6 @@
 
 <script>
 export default {
-  name: "Graph",
+    name: "Graph",
 };
 </script>

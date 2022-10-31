@@ -1,4 +1,4 @@
 module.exports = {
-  test: /\.vue$/,
-  loader: 'vue-loader',
+    test: /\.vue$/,
+    loader: 'vue-loader',
 };

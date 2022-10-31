@@ -7,11 +7,11 @@ import settings from "./modules/settings";
 const debug = process.env.NODE_ENV !== "production";
 
 const store = createStore({
-  modules: {
-    settings,
-  },
-  strict: debug,
-  plugins: debug ? [createLogger()] : []
+    modules: {
+        settings,
+    },
+    strict: debug,
+    plugins: debug ? [createLogger()] : []
 });
 
 export default store;
