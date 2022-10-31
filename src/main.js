@@ -20,8 +20,10 @@ const app = createApp({
     extends: App,
     mixins: [i18nMixin]
 });
-app.use(router);
-app.use(store);
+
+app.use(router)
+    .use(store);
+
 app.config.devtools = process.env.NODE_ENV === "development";
 
 // Finally Mount on the #wp-vue-kit div.
@@ -30,13 +32,13 @@ app.mount("#wp-vue-kit");
 // Add action/filter hooks injectable
 window.wpEmailerHooks = createHooks();
 wpEmailerHooks.addFilter = (hookName, namespace, component, priority = 10) => {
-  wpEmailerHooks.hooks.addFilter(
-    hookName,
-    namespace,
-    components => {
-      components.push(component);
-      return components;
-    },
-    priority
-  );
+    wpEmailerHooks.hooks.addFilter(
+        hookName,
+        namespace,
+        components => {
+            components.push(component);
+            return components;
+        },
+        priority
+    );
 };

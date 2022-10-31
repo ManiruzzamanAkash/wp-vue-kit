@@ -15,7 +15,7 @@ export function menuFix() {
 
     $('ul.wp-submenu li', menuRoot).removeClass('current');
 
-    menuRoot.on('click', 'a', function () {
+    menuRoot.on('click', 'a', function() {
         const self = $(this);
 
         $('ul.wp-submenu li', menuRoot).removeClass('current');
@@ -27,7 +27,7 @@ export function menuFix() {
         }
     });
 
-    $('ul.wp-submenu a', menuRoot).each(function (index, el) {
+    $('ul.wp-submenu a', menuRoot).each(function(index, el) {
         let hrefRoute = $(el).attr('href').substring($(el).attr('href').indexOf('/admin.php') + 1);
 
         if (hrefRoute === currentPath) {
