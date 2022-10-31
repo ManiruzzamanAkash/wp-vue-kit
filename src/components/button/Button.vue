@@ -1,13 +1,13 @@
 <template>
-    <button>
-        <slot></slot> <!-- slot button content -->
-    </button>
+  <button>
+    <slot /> <!-- slot button content -->
+  </button>
 </template>
 
 <script>
-    export default {
-        name: 'Button',
-    }
+export default {
+    name: 'Button',
+};
 </script>
 
 <style lang="scss" scoped>
